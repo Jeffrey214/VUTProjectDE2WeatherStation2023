@@ -22,7 +22,13 @@ adrbme = 0x76
 bus = smbus2.SMBus(1)
 bmeparams = bme280.load_calibration_params(bus, adrbme)
 
+# Network settings
+WIFI_SSID = "UREL-SC661-V-2.4G"
+WIFI_PSWD = "TomFryza"
+THINGSPEAK_API_KEY = "7A960DRYABVC0FGR"
 
+# Create Station interface
+sta_if = network.WLAN(network.STA_IF)
 
 print("Stop the code execution by pressing `Ctrl+C` key.")
 print("")
@@ -58,6 +64,18 @@ try:
         display.text("{:.2f} Pascal %".format(humidity), x=0, y=10)
         display.show()
         time.sleep(5)
+        
+        connect_wifi()
+
+        # Send data using a POST request
+        request = urequests.post(
+        'http://api.thingspeak.com/update?api_key=' + THINGSPEAK_API_KEY,
+        json={"field1":{vali2c[0]}.{vali2c[1]}, "field2": humidity,"field3": pressure},
+        headers={"Content-Type": "application/json"})
+        print(f"Request #{request.text} sent")
+        request.close()
+
+        disconnect_wifi()
 
 
 except KeyboardInterrupt:
