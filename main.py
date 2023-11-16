@@ -19,6 +19,7 @@ SENSOR_TEMP_REG = 2
 SENSOR_CHECKSUM = 4
 
 #bme280 sensor address and initalization 
+<<<<<<< HEAD
 bmp = bmp280.BMP280(i2c)
 bmp.use_case(bmp280.BMP280_CASE_WEATHER)
 bmp.oversample(bmp280.BMP280_OS_HIGH)
@@ -26,6 +27,19 @@ bmp.temp_os = bmp280.BMP280_TEMP_OS_8
 bmp.press_os = bmp280.BMP280_PRES_OS_4
 bmp.standby = bmp280.BMP280_STANDBY_250
 bmp.iir = bmp280.BMP280_IIR_FILTER_2
+=======
+adrbme = 0x76
+bus = smbus2.SMBus(1)
+bmeparams = bme280.load_calibration_params(bus, adrbme)
+
+# Network settings
+WIFI_SSID = "UREL-SC661-V-2.4G"
+WIFI_PSWD = "TomFryza"
+THINGSPEAK_API_KEY = "7A960DRYABVC0FGR"
+
+# Create Station interface
+sta_if = network.WLAN(network.STA_IF)
+>>>>>>> 853263a064a5ba6408f76570075ac5ce34ff0f44
 
 print("Stop the code execution by pressing `Ctrl+C` key.")
 print("")
@@ -50,7 +64,30 @@ try:
         # the maximum with this voltage divider seems to be 45 so 
         display.text(f"Light: {photoresistor.read()/4096*100:3.1f} %", x=0, y=30)
         display.show()
+<<<<<<< HEAD
         #time.sleep(5)
+=======
+        time.sleep(5)
+        
+        pressure = bme280.sample(bus, adrbme, bmeparamas).pressure
+        display.fill(0)
+        display.text("PRESSURE : ", x=0, y=0)
+        display.text("{:.2f} Pascal %".format(humidity), x=0, y=10)
+        display.show()
+        time.sleep(5)
+        
+        connect_wifi()
+
+        # Send data using a POST request
+        request = urequests.post(
+        'http://api.thingspeak.com/update?api_key=' + THINGSPEAK_API_KEY,
+        json={"field1":{vali2c[0]}.{vali2c[1]}, "field2": humidity,"field3": pressure},
+        headers={"Content-Type": "application/json"})
+        print(f"Request #{request.text} sent")
+        request.close()
+
+        disconnect_wifi()
+>>>>>>> 853263a064a5ba6408f76570075ac5ce34ff0f44
 
 
 except KeyboardInterrupt:
