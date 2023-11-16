@@ -1,0 +1,6 @@
+[submodule "SH1106"]
+	path = SH1106
+	url = https://github.com/robert-hh/SH1106.git
+[submodule "micropython-bmp280"]
+	path = micropython-bmp280
+	url = https://github.com/dafvid/micropython-bmp280.git
