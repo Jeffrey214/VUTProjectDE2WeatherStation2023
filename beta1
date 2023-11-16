@@ -44,7 +44,7 @@ try:
         display.show()
         time.sleep(5)
 
-        humidity = bme280.sample(bus, address, calibration_params).humidity
+        humidity = bme280.sample(bus, adrbme, bmeparamas).humidity
         
         display.fill(0)
         display.text("HUMIDITY: ", x=0, y=0)
@@ -52,7 +52,7 @@ try:
         display.show()
         time.sleep(5)
         
-        pressure = bme280.sample(bus, address, calibration_params).pressure
+        pressure = bme280.sample(bus, adrbme, bmeparamas).pressure
         display.fill(0)
         display.text("PRESSURE : ", x=0, y=0)
         display.text("{:.2f} Pascal %".format(humidity), x=0, y=10)
