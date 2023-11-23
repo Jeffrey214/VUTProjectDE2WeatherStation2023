@@ -96,7 +96,9 @@ Write an instruction manual for your application, including photos and a link to
 
 [2] T. Fryza, “MicroPython on ESP32/ESP8266 microcontollers.” Nov. 03, 2023. Accessed: Nov. 23, 2023. [Online]. Available: https://github.com/tomas-fryza/esp-micropython
 
-<brk>
+
+<br>
+
 
 ### `Image Credits`
 
