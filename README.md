@@ -84,7 +84,9 @@ Our device consists of multiple sensors as well as other electrical components t
 <br>
 
 ## Software Description
-Put flowchats of your algorithm(s) and direct links to source files.
+
+![Flowchartweatherboard](https://github.com/Jeffrey214/VUTProjectDE2WeatherStation2023/assets/50847055/bbea967a-1b9b-4532-a0c4-51a36c7969b5)
+
 
 ## Instructions
 Write an instruction manual for your application, including photos and a link to a short app video.
