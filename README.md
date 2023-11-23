@@ -74,7 +74,7 @@ Our device consists of multiple sensors as well as other electrical components t
 
 <br>
 
-### `DH11 Humidity Sensor`
+### `DH12 Humidity Sensor`
 * Used to measure the humidity of an environment, also has a temperature sensor that is used the measure the temperature of an environment
 * Has a SDA and SCL input, as well as a VCC (3V3) input and a ground pin.
 * Data is processed and outputted onto the OLED screen
