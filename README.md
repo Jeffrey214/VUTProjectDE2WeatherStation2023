@@ -92,17 +92,23 @@ Write an instruction manual for your application, including photos and a link to
 ## References:
 
 ### `Code/Assignment Works Cited`
-[1] “Adafruit BMP280 Barometric Pressure + Temperature Sensor Breakout,” Adafruit Learning System. Accessed: Nov. 23, 2023. [Online]. Available: https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout/circuitpython-test
+[1] “Adafruit BMP280 Barometric Pressure + Temperature Sensor Breakout,” Adafruit Learning System. Accessed: Nov. 23, 2023. [Online]. Available: https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout/circuitpython-test  
+
 [2] T. Fryza, “MicroPython on ESP32/ESP8266 microcontollers.” Nov. 03, 2023. Accessed: Nov. 23, 2023. [Online]. Available: https://github.com/tomas-fryza/esp-micropython
 
 <brk>
 
 ### `Image Credits`
 
-[3] “86.52CZK 25% OFF|BME280 3.3V 5V Digital Sensor Temperature Humidity Barometric Pressure Sensor Module I2C SPI 1.8 5V BME280 Sensor Module| | - AliExpress,” aliexpress.com. Accessed: Nov. 23, 2023. [Online]. Available: //www.aliexpress.com/item/1005005898848756.html?src=ibdm_d03p0558e02r02&sk=&aff_platform=&aff_trace_key=&af=&cv=&cn=&dp=
-[4] “400 Points Solderless Self Adhesive BreadBoard,” indiamart.com. Accessed: Nov. 23, 2023. [Online]. Available: https://m.indiamart.com/proddetail/400-points-solderless-self-adhesive-breadboard-19871496173.html
-[5] “Addicore Photoresistor 5mm Photo Cell,” Addicore. Accessed: Nov. 23, 2023. [Online]. Available: https://www.addicore.com/products/photoresistor-5mm
-[6] “Amazon.com: Stemedu ESP32-S2-Saola-1 Microcontroller Processor Module 4MB Flash + 2MB PSRAM ESP32-S2-WROVER WiFi Development Board for Ardunio IDE : Electronics.” Accessed: Nov. 23, 2023. [Online]. Available: https://www.amazon.com/Stemedu-ESP32-S2-Development-Board-ESP32-S2-Saola-1/dp/B09TVY63FF
-[7] “DHT11 Arduino Modul pro Měření Teploty a Vlhkosti,” robotstore.cz. Accessed: Nov. 23, 2023. [Online]. Available: https://robotstore.cz/produkt/dht11-arduino-modul-pro-mereni-teploty-a-vlhkosti/
+[3] “86.52CZK 25% OFF|BME280 3.3V 5V Digital Sensor Temperature Humidity Barometric Pressure Sensor Module I2C SPI 1.8 5V BME280 Sensor Module| | - AliExpress,” aliexpress.com. Accessed: Nov. 23, 2023. [Online]. Available: //www.aliexpress.com/item/1005005898848756.html?src=ibdm_d03p0558e02r02&sk=&aff_platform=&aff_trace_key=&af=&cv=&cn=&dp=  
+
+[4] “400 Points Solderless Self Adhesive BreadBoard,” indiamart.com. Accessed: Nov. 23, 2023. [Online]. Available: https://m.indiamart.com/proddetail/400-points-solderless-self-adhesive-breadboard-19871496173.html  
+
+[5] “Addicore Photoresistor 5mm Photo Cell,” Addicore. Accessed: Nov. 23, 2023. [Online]. Available: https://www.addicore.com/products/photoresistor-5mm  
+
+[6] “Amazon.com: Stemedu ESP32-S2-Saola-1 Microcontroller Processor Module 4MB Flash + 2MB PSRAM ESP32-S2-WROVER WiFi Development Board for Ardunio IDE : Electronics.” Accessed: Nov. 23, 2023. [Online]. Available: https://www.amazon.com/Stemedu-ESP32-S2-Development-Board-ESP32-S2-Saola-1/dp/B09TVY63FF  
+
+[7] “DHT11 Arduino Modul pro Měření Teploty a Vlhkosti,” robotstore.cz. Accessed: Nov. 23, 2023. [Online]. Available: https://robotstore.cz/produkt/dht11-arduino-modul-pro-mereni-teploty-a-vlhkosti/  
+
 [8] C. spol s r.o, “IIC I2C OLED 1,3" displej 128x64 Bílý | dratek.cz,” dratek.cz. Accessed: Nov. 23, 2023. [Online]. Available: https://dratek.cz/arduino/3181-iic-i2c-oled-1-3-displej-128x64-bily.html
 
