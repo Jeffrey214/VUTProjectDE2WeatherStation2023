@@ -33,7 +33,7 @@ try:
         display.show() #update the display
 
         # Send data using a POST request
-        request = urequests.post('http://api.thingspeak.com/update?api_key=' + THINGSPEAK_API_KEY,json={"field1": {t}, "field2": {h},"field3": {p},"field 4": {l}},headers={"Content-Type": "application/json"})
+        request = urequests.post('http://api.thingspeak.com/update?api_key=' + THINGSPEAK_API_KEY,json={"field1": {str(t)}, "field2": {str(h)},"field3": {str(p)},"field 4": {str(l)}},headers={"Content-Type": "application/json"})
         print(f"Request #{request.text} sent")
         request.close()
         
