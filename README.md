@@ -89,7 +89,12 @@ Our device consists of multiple sensors as well as other electrical components t
 
 
 ## Instructions
-Write an instruction manual for your application, including photos and a link to a short app video.
+Operation of the program is quite simple:
+1. The user must download the main program as well as the setup program.
+2. The user should make sure that the wifi passowrd as well as api key is what they wish it to be.
+3. Update the ESP32 with the proper firmware.
+4. Start the program and the device runs automatically, no further input is required.
+5. The device returns its sensor data periodically and it is automatically outputted to the OLED screen.
 
 ## References:
 
